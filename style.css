@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;800&family=Zeyada&display=swap');
+/* Styles for Mobile Layout*/
+
+.wrapper{
+    position: relative;
+	color: white;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	max-width:1200px;
+	min-width:375px;
+	margin: auto;
+}
+.name1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 3em;
+}
+.name2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 3em;
+}
+.title{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 1em;
+}
+nav{
+	position: absolute;
+    top: 62%;
+    left: 47%;
+	transform: translate(-50%,-50%);
+}
+.claim{
+	position: absolute;
+	top: 91%;
+	left: 50%;
+	font-size: 0.5em;
+	transform: translate(-50%,-50%);
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+li{
+	list-style: none;
+	font-size: 0.8em;
+	border-left: 1px solid white;
+	padding-left: 1.1em;
+	padding-right: 1.1em;
+}
+li:nth-of-type(1){
+	border-left: 0px;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color:white;
+	text-decoration: underline;
+}
+a:hover{
+	background-color: black;
+}
+@media screen and (min-width: 800px)
+{
+	/*There is no two-column design for homepage, please refer to portfolio page, story page and contact page*/
+}
